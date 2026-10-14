@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'live_test.dart';
+import 'blood_details_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,8 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-
-      home: LiveTest() ,
+      home: BloodDetailsPage () ,
     );
   }
 }
