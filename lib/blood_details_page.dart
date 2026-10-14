@@ -99,7 +99,7 @@ class BloodDetailsPage  extends StatelessWidget {
               color: Color(0xFF111827),
             ),
           ),
-          SizedBox(height: 12),
+          SizedBox(height: 18),
 
           Row(
             children: [
@@ -108,7 +108,7 @@ class BloodDetailsPage  extends StatelessWidget {
                 color: Colors.blueGrey,
                 size: 20,
               ),
-              SizedBox(width: 4),
+              SizedBox(width: 8),
               Expanded(
                 child: Text(
                   'Khulna City Medical College Hospital, KDA Ave...',
@@ -120,28 +120,29 @@ class BloodDetailsPage  extends StatelessWidget {
                   ),
                 ),
               ),
-              SizedBox( height: 8),
-              SizedBox(
-                width: double.infinity,
-                height: 8,
-                child: ElevatedButton(onPressed: (){},
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: const Color(0xFF071536),
-                  foregroundColor: Colors.white,
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(12),
-                  ),
-                ),
-                    child:Text(
-                      'View Details',
-                      style: TextStyle(
-                        fontSize: 15,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ) ,
+              SizedBox( height: 16),
+            ],
+
+          ),
+          SizedBox(
+            width: double.infinity,
+            height: 24,
+            child: ElevatedButton(onPressed: (){},
+              style: ElevatedButton.styleFrom(
+                backgroundColor: const Color(0xFF071536),
+                foregroundColor: Colors.white,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(12),
                 ),
               ),
-            ],
+              child:Text(
+                'View Details',
+                style: TextStyle(
+                  fontSize: 15,
+                  fontWeight: FontWeight.bold,
+                ),
+              ) ,
+            ),
           ),
         ],
 
